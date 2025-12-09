@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+	.welcomePopup__header {
+		width: 450px;
+		height: 72px;
+		font-size: 1.2rem;
+		font-weight: 600;
+	}
+
+	.welcomePopup__content {
+		width: 450px;
+		height: 324px;
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+
+	.welcomePopup__header--icon {
+		width: 1.5rem;
+	}
+}
+
+@media (max-width: 480px) {
+	.welcomePopup__header {
+		width: 316px;
+		height: 52px;
+		font-size: 1rem;
+		font-weight: 600;
+	}
+
+	.welcomePopup__content {
+		width: 316px;
+		height: 180px;
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+
+	.welcomePopup__content--text {
+		height: 44px;
+	}
+
+	.welcomePopup__header--icon {
+		width: 1.5rem;
+	}
+}
+
+@media (max-width: 320px) {
+	.welcomePopup__header {
+		width: 260px;
+		font-size: 16px;
+	}
+
+	.welcomePopup__content {
+		width: 260px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.welcomePopup__header--icon {
+		width: 24px;
+	}
+}

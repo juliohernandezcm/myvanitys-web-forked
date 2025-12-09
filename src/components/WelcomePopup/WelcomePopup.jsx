@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import './WelcomePopup.css';
+import './WelcomePopup.responsive.css';
 import { IoClose } from 'react-icons/io5';
 import { VanitysContext } from '../../context/index';
 
