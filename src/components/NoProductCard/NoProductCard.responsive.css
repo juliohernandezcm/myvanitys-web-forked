@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+	.noProductCard {
+		width: 440px;
+		height: 610px;
+	}
+
+	.noProductCard__image {
+		width: 326px;
+		height: 280px;
+	}
+}
