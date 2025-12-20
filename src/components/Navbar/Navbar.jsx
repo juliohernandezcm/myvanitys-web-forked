@@ -222,6 +222,7 @@ const Navbar = () => {
 
 						<div className='tooltip-wrapper'>
 							<img
+								className='header__userPhoto'
 								src={userPhoto}
 								alt='User Photo'
 								onClick={() => !showCookieBanner && toggleUserProfile()}

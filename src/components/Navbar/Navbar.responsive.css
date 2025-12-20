@@ -1,5 +1,3 @@
-/* TABLET - 1024px y menos */
-
 .header,
 .header-dashboard {
 	justify-content: space-between;
@@ -8,7 +6,7 @@
 }
 
 .header__title {
-	font-size: 2rem;
+	font-size: 3vw;
 }
 
 .header__input {
@@ -24,17 +22,27 @@
 	font-size: 20px;
 }
 
-/* TABLET PEQUEÑA - 768px y menos */
 @media (max-width: 768px) {
 	.header__title {
 		text-align: center;
-		width: 50vw;
-		font-size: 1.8rem;
+		font-size: 5vw;
+	}
+
+	.header-dashboard {
+		grid-template-columns: 15vw 70vw 15vw;
+	}
+
+	.header-dashboard .header__products {
+		display: none;
+	}
+
+	.header-dashboard .header__title {
+		text-align: center;
+		font-size: 3.2vw;
 	}
 
 	.header__menu {
 		display: block;
-		width: 25vw;
 	}
 
 	.header__menu--icon {
@@ -50,16 +58,18 @@
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
-		width: 25vw;
 	}
 
 	.header__search--icon {
 		width: 2rem;
 		height: 2rem;
 	}
+
+	.header__userPhoto {
+		display: none;
+	}
 }
 
-/* MÓVIL - 480px y menos */
 @media (max-width: 480px) {
 	header,
 	.header-dashboard {
@@ -72,8 +82,8 @@
 		height: 1rem;
 	}
 
-	.header__title {
-		font-size: 5.2vw;
+	.header-dashboard .header__title {
+		font-size: 3.2vw;
 	}
 
 	.header__search--icon {
@@ -85,7 +95,3 @@
 		padding: 0 1rem;
 	}
 }
-
-/* MÓVIL MUY PEQUEÑO - 320px y menos */
-/* @media (max-width: 320px) {
-} */
