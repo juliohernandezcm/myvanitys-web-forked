@@ -43,13 +43,13 @@ export const Main = () => {
 							'Register Now',
 							toggleModalRegister,
 							'main__register--button',
-							'main'
+							'mainOne'
 						)}
 						{renderButtonWithTooltip(
 							'Log in',
 							toggleModalLogin,
 							'main__login--button',
-							'main'
+							'mainTwo'
 						)}
 					</>
 				)}
