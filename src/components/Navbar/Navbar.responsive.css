@@ -25,11 +25,11 @@
 @media (max-width: 768px) {
 	.header__title {
 		text-align: center;
-		font-size: 5vw;
+		font-size: 6vw;
 	}
 
 	.header-dashboard {
-		grid-template-columns: 15vw 70vw 15vw;
+		grid-template-columns: 1fr 2fr 1fr;
 	}
 
 	.header-dashboard .header__products {

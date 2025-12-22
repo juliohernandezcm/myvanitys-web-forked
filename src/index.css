@@ -23,7 +23,8 @@
 }
 
 html {
-	overflow: hidden;
+	height: 100%;
+	overflow-y: auto;
 }
 
 body {
