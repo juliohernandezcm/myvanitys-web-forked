@@ -1,11 +1,11 @@
-@media (min-width: 768px) {
+@media (max-width: 480px) {
 	.noProductCard {
-		width: 440px;
-		height: 610px;
+		width: 80vw;
 	}
+}
 
-	.noProductCard__image {
-		width: 326px;
-		height: 280px;
+@media (max-width: 320px) {
+	.noProductCard {
+		width: 90vw;
 	}
 }
