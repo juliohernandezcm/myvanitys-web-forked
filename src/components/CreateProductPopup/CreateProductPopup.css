@@ -11,9 +11,9 @@
 .createProduct__container {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: repeat(2, max-width);
+	grid-template-columns: max-content 1fr;
 	grid-template-rows: 94px min-content;
-	grid-row-gap: 24px;
+	grid-row-gap: 10px;
 	grid-template-areas:
 		'header header'
 		'image description';
@@ -32,7 +32,6 @@
 	height: 72px;
 	background-color: var(--text-color);
 	color: var(--white);
-	font-size: 24px;
 	font-weight: 600;
 	border-radius: 15px 15px 0 0;
 	padding: 0 24px;
@@ -40,6 +39,12 @@
 
 .createProduct__header--title {
 	margin: 0 auto;
+	font-size: 1.5rem;
+}
+
+.createProduct__header--icon {
+	width: 2.5rem;
+	height: 2.5rem;
 }
 
 .createProduct__right--title {

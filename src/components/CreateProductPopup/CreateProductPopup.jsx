@@ -2,11 +2,11 @@ import React, { useContext, useEffect, useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 import { VanitysContext } from '../../context/index';
 import './CreateProductPopup.css';
+import './CreateProductPopup.responsive.css';
 import { useForm } from 'react-hook-form';
 import { Modal } from '../Modal/Modal';
 import { MissingFieldsPopup } from '../MissingFieldsPopup/MissingFieldsPopup';
 import imageForm from '../../assets/image-form.png';
-import { image } from 'framer-motion/client';
 
 const CreateProductPopup = () => {
 	// Define the array of categories with their ID and name
@@ -128,7 +128,6 @@ const CreateProductPopup = () => {
 					</h1>
 					<IoClose
 						onClick={() => toggleCreateProductPopup()}
-						size={40}
 						className='createProduct__header--icon'
 					/>
 				</section>

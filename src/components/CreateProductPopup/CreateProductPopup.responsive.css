@@ -1,0 +1,38 @@
+@media (max-width: 880px) {
+	.createProduct__left--image {
+		display: none;
+	}
+
+	.createProduct__header--title {
+		font-size: 1.2rem;
+	}
+
+	.createProduct__header--icon {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media (max-width: 520px) {
+	.createProduct__container {
+		grid-template-columns: 1fr;
+		width: 90vw;
+	}
+
+	.createProduct__right {
+		width: 90%;
+		margin: 35px auto;
+	}
+}
+
+/* Móvil */
+@media (max-width: 480px) {
+	.createProduct__header--title {
+		font-size: 1rem;
+	}
+
+	.createProduct__header--icon {
+		width: 25px;
+		height: 25px;
+	}
+}
