@@ -14,6 +14,8 @@ import { UserProfile } from '../UserProfile/UserProfile';
 import { Notification } from '../Notification/Notification';
 
 import './Dashboard.css';
+import './Dashboard.responsive.css';
+
 
 const Dashboard = () => {
 	const { searchText, showUserProfile, showNotification } =

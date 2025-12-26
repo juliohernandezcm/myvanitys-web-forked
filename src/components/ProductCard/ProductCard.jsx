@@ -1,4 +1,6 @@
-import './ProductCard.css';
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/react-in-jsx-scope */
 import { VanitysContext } from '../../context/index';
 import { useContext } from 'react';
 import { Modal } from '../Modal/Modal';
@@ -6,6 +8,10 @@ import { CreateReviewPopup } from '../CreateReviewPopup/CreateReviewPopup';
 import { CreateProductPopup } from '../CreateProductPopup/CreateProductPopup';
 import { ProductPopup } from '../ProductPopup/ProductPopup';
 import { DeleteModal } from '../DeleteModal/DeleteModal';
+import starIcon from '../../assets/pink-star.png';
+
+import './ProductCard.css';
+import './ProductCard.responsive.css';
 
 const ProductCard = ({ product, id }) => {
 	const {
@@ -88,6 +94,16 @@ const ProductCard = ({ product, id }) => {
 				</div>
 			</div>
 			<div className='productCard__right'>
+				<div className='productCard__right--average'>
+					<span className='productCard__right--average--number'>
+						{product.averageRating > 0 ? product.averageRating : '0'}
+					</span>
+					<img
+						src={starIcon}
+						alt='average star icon'
+						className='productCard__right--average--star'
+					/>
+				</div>
 				<div className='productCard__right--rating'>
 					<svg
 						className='productCard__right--icon'
