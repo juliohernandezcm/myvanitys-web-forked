@@ -111,6 +111,10 @@ const Navbar = () => {
 					<img
 						className='header__menu--icon'
 						src={menuHamburguer}
+						onClick={() => !showCookieBanner && toggleUserProfile()}
+						style={{
+							cursor: showCookieBanner ? 'not-allowed' : 'pointer',
+						}}
 						alt='Menu'
 					/>
 				</div>
