@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+	.productCard__left--rating {
+		display: none;
+	}
+
+	.productCard__right--average {
+		display: flex;
+		flex-direction: row;
+		gap: 5px;
+		align-items: center;
+	}
+
+	.productCard__right--average--number {
+		font-size: 1.25rem;
+		font-weight: bold;
+		color: var(--pink-text);
+	}
+
+	.productCard__right--average--star {
+		width: 20px;
+		height: 19px;
+	}
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+}

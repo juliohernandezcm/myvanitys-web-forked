@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+	.dashboard__categories {
+		display: none;
+	}
+
+	.productCard__wrapper {
+		height: fit-content;
+	}
+}
