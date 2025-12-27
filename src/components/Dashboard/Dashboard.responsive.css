@@ -7,3 +7,9 @@
 		height: fit-content;
 	}
 }
+
+@media (max-width: 440px) {
+	.dashboard {
+		margin: 5px;
+	}
+}
